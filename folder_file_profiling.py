@@ -167,7 +167,7 @@ if __name__ == "__main__":
     print("9. sys.executable, sys.version, sys.version_info & sys.platform")
     show_sys_info(); print_demarcater()
 
-    print("10. sys.getsizeof")
+    print("10. sys_getsize and other profiles")
     file_path = '/content/sample_data/california_housing_test.csv'
     folder_path = '/content/sample_data/'
 

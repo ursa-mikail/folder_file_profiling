@@ -49,8 +49,10 @@ This repository contains a Python script that demonstrates various OS and system
    - Description: Prints information about the Python interpreter.
    - Example Usage: `show_sys_info()`
 
-10. **Determining Object Size in Memory**
-    - Function: `show_sizeof_object(obj)`
-    - Description: Prints the size of an object in bytes.
-    - Example Usage: `example_list = [1, 2, 3, 4, 5]` `show_sizeof_object(example_list)`
+10. **Determining Object Size in Memory And Other Profiles**
+    - Function: `get_size(obj)` and `pretty_print_json(get_file_info(obj)`
+    - Description: 
+         - Displays the size of a specified object in bytes.
+         - Gets the size of a file or directory in bytes.
+         - Gets detailed information about a file or folder, including size, creation date, last modification date, and last access date.
 
